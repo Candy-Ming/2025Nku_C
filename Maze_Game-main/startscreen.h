@@ -2,6 +2,8 @@
 #define STARTSCREEN_H
 
 #include <QWidget>
+#include <QPaintEvent>
+#include <QPixmap>
 #include "mazeWidget.h"
 
 class StartScreen : public QWidget {
@@ -17,11 +19,15 @@ private slots:
     void showRules();  // 显示规则
     void chooseDifficulty(); // 选择难度
 
+protected:
+    void paintEvent(QPaintEvent *event) override;
+
 private:
     int currentDifficulty = 20; // 默认 20 阶迷宫
     void setupUI();
 
     mazeWidget *game;
+    QPixmap backgroundImage; // 背景图片
 };
 
 #endif // STARTSCREEN_H

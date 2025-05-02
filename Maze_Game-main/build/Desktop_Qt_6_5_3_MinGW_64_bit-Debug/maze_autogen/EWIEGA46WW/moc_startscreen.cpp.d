@@ -123,7 +123,9 @@ D:/Qt/Qtcode/Maze_Game-main/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/maze_autog
   D:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QPaintEvent \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+  D:/Qt/6.5.3/mingw_64/include/QtGui/QPixmap \
   D:/Qt/6.5.3/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.5.3/mingw_64/include/QtGui/qbitmap.h \

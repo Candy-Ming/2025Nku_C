@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/background.png</file>
+        <file>tiles/brick.png</file>
+        <file>sprites/dog_down1.png</file>
+        <file>sprites/dog_down2.png</file>
+        <file>sprites/dog_up1.png</file>
+        <file>sprites/dog_up2.png</file>
+        <file>sprites/dog_left1.png</file>
+        <file>sprites/dog_left2.png</file>
+        <file>sprites/dog_right1.png</file>
+        <file>sprites/dog_right2.png</file>
+        <file>assets/flag.png</file>
+        <file>assets/paw.png</file>
+        <file>assets/grass.png</file>
+    </qresource>
+</RCC>
