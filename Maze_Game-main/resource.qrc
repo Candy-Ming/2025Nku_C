@@ -13,5 +13,7 @@
         <file>assets/flag.png</file>
         <file>assets/paw.png</file>
         <file>assets/grass.png</file>
+        <file>assets/bgm.mp3</file>
+        <file>assets/celebrate.gif</file>
     </qresource>
 </RCC>

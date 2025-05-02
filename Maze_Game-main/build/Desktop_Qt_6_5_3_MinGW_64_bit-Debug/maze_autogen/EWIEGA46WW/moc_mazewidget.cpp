@@ -46,8 +46,8 @@ static constexpr auto qt_meta_stringdata_CLASSmazeWidgetENDCLASS = QtMocHelpers:
     "on_end_btn_clicked",
     "on_rule_btn_clicked",
     "on_setting_btn_clicked",
-    "time_update",
     "on_solve_btn_clicked",
+    "time_update",
     "dogAnimationUpdate"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -60,8 +60,8 @@ struct qt_meta_stringdata_CLASSmazeWidgetENDCLASS_t {
     char stringdata4[19];
     char stringdata5[20];
     char stringdata6[23];
-    char stringdata7[12];
-    char stringdata8[21];
+    char stringdata7[21];
+    char stringdata8[12];
     char stringdata9[19];
 };
 #define QT_MOC_LITERAL(ofs, len) \
@@ -75,8 +75,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmazeWidgetENDCLASS_t qt_meta_st
         QT_MOC_LITERAL(53, 18),  // "on_end_btn_clicked"
         QT_MOC_LITERAL(72, 19),  // "on_rule_btn_clicked"
         QT_MOC_LITERAL(92, 22),  // "on_setting_btn_clicked"
-        QT_MOC_LITERAL(115, 11),  // "time_update"
-        QT_MOC_LITERAL(127, 20),  // "on_solve_btn_clicked"
+        QT_MOC_LITERAL(115, 20),  // "on_solve_btn_clicked"
+        QT_MOC_LITERAL(136, 11),  // "time_update"
         QT_MOC_LITERAL(148, 18)   // "dogAnimationUpdate"
     },
     "mazeWidget",
@@ -86,8 +86,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmazeWidgetENDCLASS_t qt_meta_st
     "on_end_btn_clicked",
     "on_rule_btn_clicked",
     "on_setting_btn_clicked",
-    "time_update",
     "on_solve_btn_clicked",
+    "time_update",
     "dogAnimationUpdate"
 };
 #undef QT_MOC_LITERAL
@@ -149,9 +149,9 @@ Q_CONSTINIT const QMetaObject mazeWidget::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_setting_btn_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'time_update'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_solve_btn_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'time_update'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'dogAnimationUpdate'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
@@ -170,8 +170,8 @@ void mazeWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 2: _t->on_end_btn_clicked(); break;
         case 3: _t->on_rule_btn_clicked(); break;
         case 4: _t->on_setting_btn_clicked(); break;
-        case 5: _t->time_update(); break;
-        case 6: _t->on_solve_btn_clicked(); break;
+        case 5: _t->on_solve_btn_clicked(); break;
+        case 6: _t->time_update(); break;
         case 7: _t->dogAnimationUpdate(); break;
         default: ;
         }

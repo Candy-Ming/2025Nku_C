@@ -21,7 +21,9 @@
 		"D:/Qt/Qtcode/Maze_Game-main/assets/grass.png",
 		"D:/Qt/Qtcode/Maze_Game-main/assets/paw.png",
 		"D:/Qt/Qtcode/Maze_Game-main/assets/background.png",
-		"D:/Qt/Qtcode/Maze_Game-main/assets/flag.png"
+		"D:/Qt/Qtcode/Maze_Game-main/assets/flag.png",
+		"D:/Qt/Qtcode/Maze_Game-main/assets/celebrate.gif",
+		"D:/Qt/Qtcode/Maze_Game-main/assets/bgm.mp3"
 	],
 	"LOCK_FILE" : "D:/Qt/Qtcode/Maze_Game-main/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/CMakeFiles/maze_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
